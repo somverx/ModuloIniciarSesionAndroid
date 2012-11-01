@@ -2,7 +2,6 @@ package com.modulo.iniciarsesion;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
 
 public class IniciarSesion extends Activity {
 
@@ -11,10 +10,5 @@ public class IniciarSesion extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iniciar_sesion);
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_iniciar_sesion, menu);
-        return true;
-    }
+    
 }
